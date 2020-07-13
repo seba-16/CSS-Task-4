@@ -3,6 +3,7 @@
 	padding: 0;
 }
 .h1{
+	color: #03e9f4;
 	height: 100px;
 	font-size: 60px;
 	background-image: url("https://images.unsplash.com/photo-1557683311-eac922347aa1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
@@ -12,10 +13,16 @@
 }
 a{
 	text-decoration: none;
+	color: #03e9f4;
+	transition: 0.5;
 }
 a:hover{
-	color: yellow;
-
+	background-color: #03e9f4;
+	color: #050801;
+	box-shadow: 0 0 5px #03e9f4,
+	0 0 25px #03e9f4,
+	0 0 50px #03e9f4,
+	0 0 200px #03e9f4;
 }
 a:active{
 	color: blue;
@@ -26,26 +33,28 @@ h1{
 }
 
 .navbar{
-
 	height: 50px;
 	font-family: 'Bangers', cursive;
 	font-size: 23px;
 	padding: 10px; 
-	background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/77a638c2-9d34-4f8d-9aef-edb8d196b304/d6eez2n-91cd344d-200f-4536-941f-a1ebe4f0c51f.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvNzdhNjM4YzItOWQzNC00ZjhkLTlhZWYtZWRiOGQxOTZiMzA0XC9kNmVlejJuLTkxY2QzNDRkLTIwMGYtNDUzNi05NDFmLWExZWJlNGYwYzUxZi5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.PMwG56MtaANJlugstZ7d5WEiGj4f4m4auF6nffUP9Rs");
+	background:#0d0175;
 	position: sticky;
+	top:0px;
 	background-size: 100px;
-	top:10px;
 	box-shadow: 5px 5px #ffff80;
 }
 .navbar ul{
 	margin: 80px;
 	display: inline;
+
 }
 
 .navbar li{
 	display: inline;
-	padding-left: 60px;
+	padding-left: 50px;
 	padding-top: 40px; 
+
+	
 }
 
 .dashboard1{
@@ -54,10 +63,11 @@ h1{
 
 }
 
+
 .navbar li:hover .dashboard1{
 	display: block;
 	position: absolute;
-	background-color: #808000;
+	background-color: #002699;
 	padding-left: 0px;
 	
 	margin-left: 135px;
@@ -85,7 +95,7 @@ h1{
 .navbar li:hover .timeline1{
 	display: block;
 	position: absolute;
-	background-color: #808000;
+	background-color: #002699;
 	padding-left: 0px;
 	
 	margin-left: 300px;
@@ -112,7 +122,7 @@ h1{
 .navbar li:hover .mycourse1{
 	display: block;
 	position: absolute;
-	background-color: #808000;
+	background-color: #002699;
 	padding-left: 0px;
 	
 	margin-left: 505px;
@@ -139,7 +149,7 @@ h1{
 .navbar li:hover .myclass1{
 	display: block;
 	position: absolute;
-	background-color: #808000;
+	background-color: #002699;
 	padding-left: 0px;
 	
 	margin-left: 705px;
@@ -166,10 +176,10 @@ h1{
 .navbar li:hover .events1{
 	display: block;
 	position: absolute;
-	background-color: #808000;
+	background-color: #002699;
 	padding-left: 0px;
 	
-	margin-left: 355px;
+	margin-left: 750px;
 	margin-top: 28px;
 
 }
@@ -193,10 +203,10 @@ h1{
 .navbar li:hover .myprofile1{
 	display: block;
 	position: absolute;
-	background-color: #808000;
+	background-color: #002699;
 	padding-left: 0px;
 	
-	margin-left: 555px;
+	margin-left: 790px;
 	margin-top: 28px;
 
 }
@@ -220,10 +230,10 @@ h1{
 .navbar li:hover .logout1{
 	display: block;
 	position: absolute;
-	background-color: #808000;
+	background-color: #002699;
 	padding-left: 0px;
 	
-	margin-left: 720px;
+	margin-left: 1220px;
 	margin-top: 28px;
 
 }
@@ -256,9 +266,153 @@ h1{
 	position: absolute;
 }
 
+.hg:hover .home1{
+	display: block;
+	position: absolute;
+	background-color: #0040ff;
+	margin-top: 10px;
+	margin-left: 40px;
+}
+.hg:hover .home1 ul{
+	margin-top: 0px;
+	
+}
+.hg:hover .home1 ul li{
+	display: block;
+	
+	padding: 10px;
+}
+
+.ab:hover .about1{
+	display: block;
+	position: absolute;
+	background-color: #0040ff;
+	margin-top: 10px;
+	margin-left: 150px;
+
+}
+.ab:hover .about1 ul{
+	margin-top: 0px;
+	
+}
+.ab:hover .about1 ul li{
+	display: block;
+	padding: 10px;
+}
+.se:hover .services1{
+	display: block;
+	position: absolute;
+	background-color: #0040ff;
+	margin-top: 10px;
+	margin-left: 265px;
+
+}
+.se:hover .services1 ul{
+	margin-top: 0px;
+	
+}
+.se:hover .services1 ul li{
+	display: block;
+	padding: 10px;
+}
+.co:hover .contact1{
+	display: block;
+	position: absolute;
+	background-color: #0040ff;
+	margin-top: 10px;
+	margin-left: 430px;
+
+}
+.co:hover .contact1 ul{
+	margin-top: 0px;
+	
+}
+.co:hover .contact1 ul li{
+	display: block;
+	padding: 10px;
+}
+.last1{
+	display: none;
+	position: absolute;
+}
+.issue1{
+	display: none;
+	position: absolute;
+}
+.next1{
+	display: none;
+	position: absolute;
+}
+
+.la:hover .last1{
+	display: block;
+	position: absolute;
+	background-color: #0040ff;
+	margin-top: 10px;
+	margin-left: 40px;
+}
+.la:hover .last1 ul{
+	margin-top: 0px;
+}
+.la:hover .last1 ul li{
+	display: block;
+	padding: 10px;
+
+}
+.is:hover .issue1{
+	display: block;
+	position: absolute;
+	background-color: #0040ff;
+	margin-top: 10px;
+	margin-left: 200px;
+}
+.is:hover .issue1 ul{
+	margin-top: 0px;
+}
+.is:hover .issue1 ul li{
+	display: block;
+	padding: 10px;
+}
+
+.ne:hover .next1{
+	display: block;
+	position: absolute;
+	background-color: #0040ff;
+	margin-top: 10px;
+	margin-left: 365px;
+}
+.ne:hover .next1 ul{
+	margin-top: 0px;
+}
+.ne:hover .next1 ul li{
+	display: block;
+	padding: 10px;
+}
 
 
 
 
+.box{
+	margin: 10px;
+}
+p{
+	font-family: 'Shadows Into Light', cursive;
+	border: 1px #000 solid;
+	width: 600px;
+	height: 800px;
+	overflow-y: scroll;
+	padding: 50px;
+	background-color: white;
+	margin-top: 200px;
+	margin-left: 100px;
 
-
+}
+.logo{
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	box-shadow: 0 0 5px #03e9f4,
+	0 0 25px #03e9f4,
+	0 0 50px #33cc33,
+	0 0 200px #03e9f4;
+}
